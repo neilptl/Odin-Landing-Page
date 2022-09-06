@@ -1,25 +1,86 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 img {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
-.header {
+button {
+    background-color: #283618;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+}
+
+.header, .footer{
     background-color: #BC6C25;
-    color: white;
+    color: #F9FAF8;
 }
 
 .header .logo {
-    font-size: larger;
+    font-size: 24px;
     font-weight: bold;
+    color: #F9FAF8;
 }
 
 .header-links ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.hero {
+    background-color: #DDA15E;
+    color: #F9FAF8;;
+}
+
+.hero .text .topic {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero .text .subtext {
+    font-size: 18px;
+    margin: 0;
+}
+
+.images {
+    background-color: #FEFAE0;
+}
+
+.image img {
+    border: 10px solid #283618;
+    border-radius: 12px;
+}
+
+.quote {
+    background-color: #606C38;
+    color: #F9FAF8;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote .byline {
+    font-size: 24px;
+}
+
+.action {
+    background-color: #283618;
+    border: 0px solid #283618;
+    border-radius: 24px;
+    color: #F9FAF8;
+    margin: 50px 100px;
+}
+
+.bottom {
+    border: 5px solid #F9FAF8;
 }
