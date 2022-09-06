@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.header {
+    background-color: #BC6C25;
+    color: white;
+}
+
+.header .logo {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.header-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
