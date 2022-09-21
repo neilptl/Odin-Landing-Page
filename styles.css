@@ -100,6 +100,10 @@ button {
     border-radius: 12px;
 }
 
+.image p {
+    text-align: center;
+}
+
 .quote {
     background-color: #606C38;
     color: #F9FAF8;
